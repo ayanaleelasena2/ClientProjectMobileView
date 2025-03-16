@@ -70,7 +70,7 @@ main div{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     border-radius: 5px;
-    font-size: .85rem;
+    font-size: .9rem;
     line-height: 1.5;
 }
 
@@ -87,7 +87,7 @@ main div ul{
 main div h3{
     text-align: left;
     color: #FFCB05;
-    font-size: .85rem;
+    font-size: .9rem;
 }
 
 main div a{
@@ -109,7 +109,7 @@ main section {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     padding: 20px 20px;
-    font-size: .85rem;
+    font-size: .9rem;
 }
 
 main section article h3{
