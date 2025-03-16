@@ -9,9 +9,12 @@
 
 nav {
     background-color: #00274C;
-    padding: 15px 30px;
+    padding: 40px 15px;
     margin: 0;
     box-sizing: border-box;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 nav ul {
@@ -34,7 +37,7 @@ nav ul li a{
 main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
 }
 
@@ -42,12 +45,12 @@ main h1 {
     grid-column: 1 / -1;
     display: block;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #00274C;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
-    padding: 15px 0;
+    margin-bottom: 10px;
     border-radius: 8px;
 }
 
@@ -65,7 +68,7 @@ main div{
     background: #00274C;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
     font-size: .75rem;
     line-height: 1.5;
@@ -78,13 +81,18 @@ main div h2{
 }
 
 main div ul{
-    padding: 30px;
+    padding: 20px;
 }
 
 main div h3{
-    text-align: center;
+    text-align: left;
     color: #FFCB05;
-    font-size: 1rem;
+    font-size: .75rem;
+}
+
+main div a{
+    text-decoration: underline;
+    color: white;
 }
 
 main section h2{
@@ -139,6 +147,7 @@ footer {
     margin-top: auto;;
     text-align: center;
     line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer ul{
