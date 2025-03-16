@@ -33,7 +33,7 @@ nav ul li a{
 
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     padding: 20px;
 }
@@ -42,30 +42,80 @@ main h1 {
     grid-column: 1 / -1;
     display: block;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #00274C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
     padding: 15px 0;
     border-radius: 8px;
 }
 
-main > div:first-of-type {
-    display: block;
-    width: 100%;
-    padding: 20px;
+main div:first-of-type {
+    background-color: white;
+    color: #00274C;
+    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
+    font-size: .75rem;
+    line-height: 1.5;
 }
 
-main > h1,
-main > div:first-of-type {
-    grid-column: 1 / -1;
+main div{
+    display: block;
+    background: #00274C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: .75rem;
+    line-height: 1.5;
+}
+
+main div h2{
+    text-align: center;
+    color: #FFCB05;
+    font-size: 1rem;
+}
+
+main div ul{
+    padding: 30px;
+}
+
+main div h3{
+    text-align: center;
+    color: #FFCB05;
+    font-size: 1rem;
+}
+
+main section h2{
+    text-align: center;
+    color: #FFCB05;
+    font-size: 1rem;
 }
 
 main section {
-    background: #f9f9f9;
+    background: #00274C;
+    color: white;
     padding: 15px;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 20px 20px;
+    font-size: .75rem;
+}
+
+main section article h3{
+    color: #FFCB05;
+}
+
+main section article figure{
+    text-align: center;
+    font-size: .5rem;
+}
+
+main section ol {
+    padding: 0px 20px;
+    align-content: center;
 }
 
 main img {
@@ -87,7 +137,8 @@ footer {
     text-align: center;
     padding: 20px 20px;
     margin-top: auto;;
-    text-align: left;
+    text-align: center;
+    line-height: 1.5;
 }
 
 footer ul{
@@ -99,8 +150,8 @@ footer a{
     color: #FFCB05;
 }
 
-img{
-    display: block;
-    margin: auto;
+.umlogo{
     width: 50%;
+    align-items: center;
+    grid-column: 1/-1;
 }
