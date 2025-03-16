@@ -59,7 +59,7 @@ main div:first-of-type {
     color: #00274C;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
-    font-size: .75rem;
+    font-size: .85rem;
     line-height: 1.5;
 }
 
@@ -70,7 +70,7 @@ main div{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     border-radius: 5px;
-    font-size: .75rem;
+    font-size: .85rem;
     line-height: 1.5;
 }
 
@@ -87,7 +87,7 @@ main div ul{
 main div h3{
     text-align: left;
     color: #FFCB05;
-    font-size: .75rem;
+    font-size: .85rem;
 }
 
 main div a{
@@ -109,7 +109,7 @@ main section {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     padding: 20px 20px;
-    font-size: .75rem;
+    font-size: .85rem;
 }
 
 main section article h3{
@@ -118,7 +118,7 @@ main section article h3{
 
 main section article figure{
     text-align: center;
-    font-size: .5rem;
+    font-size: .75rem;
 }
 
 main section ol {
@@ -163,4 +163,8 @@ footer a{
     width: 50%;
     align-items: center;
     grid-column: 1/-1;
+}
+
+#life-outside-classroom ul{
+    padding: 20px
 }
